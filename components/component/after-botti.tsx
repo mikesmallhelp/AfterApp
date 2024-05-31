@@ -70,7 +70,7 @@ export function AfterBotti() {
   )
 }
 
-function SendIcon(props) {
+function SendIcon(props: any) {
   return (
     <svg
       {...props}
