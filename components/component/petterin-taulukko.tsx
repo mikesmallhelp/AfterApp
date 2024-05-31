@@ -18,15 +18,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 export function PetterinTaulukko() {
-  return (
-    <b a sortColumn sortDirection>
-      {` b[sortColumn]) return sortDirection === 'asc' ? 1 : -1;
-        return 0;
-      });
-    }, [flights, sortColumn, sortDirection]);
-  
     return (
-      `}
       <div className="w-full max-w-6xl mx-auto p-6">
         <h1 className="text-2xl font-bold mb-4">Flight Tracker</h1>
         <div className="overflow-x-auto">
@@ -75,6 +67,5 @@ export function PetterinTaulukko() {
           </table>
         </div>
       </div>
-    </b>
   )
 }
